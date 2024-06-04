@@ -205,6 +205,7 @@ body {
 }
 
 
+
 @media (max-width:415px) {
     .conteiner {
         height: auto;
@@ -218,60 +219,67 @@ body {
         margin:48% 5% 0% 5%;
     }
     .comboplus {
-        width: 160px;
+        width: 180px;
     }
     .botao__assine {
-        padding: 7px;
+        padding: 10px;
         border-radius: 6px;
-        font-size: 0.5rem;
-        margin: 0% 25% 2% 25%;  
+        font-size: 1rem;
+        margin: 0% 15% 2% 15%;  
     }
     .aluramais {
-        padding: 7px;
-        font-size: 0.5rem;
-        margin: 0% 25% 2% 25%;  
+        padding: 10px;
+        font-size: 1rem;
+        margin: 0% 15% 2% 15%;   
     }
     .telas {
         width: 160px;
     }
     .primeiro__titulo {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
         padding: 0 9% 0 9%;
 
     }
     .info {
-        font-size: 0.4rem;
+        font-size: 0.6rem;
     }
 
     .secao2 {
-        margin: 15% 0 15% 0;
+        flex-direction: column;
+        margin: 10% 0 0% 0;
         padding: 0;
     }
     .subtitulo1 {
-        font-size: 0.8rem;        
+        font-size: 1.5rem;  
+        padding-bottom: 5%;      
     }
     .subtitulo2 {
-        font-size: 0.8rem;
+        font-size: 1rem;
+        padding-bottom: 5%;
     }
     .subtitulo3 {
         font-size: 0.8rem;
     }
     .paragrafo1 {
-        font-size: 0.5rem;
+        font-size: 0.9rem;
+        text-align: justify;
+        
     }
     .paragrafo2 {
-        font-size: 0.5rem;
+        font-size: 0.9rem;
+        text-align: justify;
     }
     .paragrafo3 {
         font-size: 0.4rem; 
     }
     .botao__combomais {
-        padding: 7px;
-        font-size: 0.5rem;
+        padding: 10px;
+        font-size: 0.8rem;
     }
     .div2 {
-        margin-left: 25px;
-        padding: 0;
+        padding: 10% 20% 10% 20%;
+        justify-content: center;
+        text-align: center;
     }
     .secao3 {
         padding-top: 10px;
