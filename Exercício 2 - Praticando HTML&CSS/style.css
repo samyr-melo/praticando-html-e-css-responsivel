@@ -225,12 +225,12 @@ body {
         padding: 10px;
         border-radius: 6px;
         font-size: 1rem;
-        margin: 0% 15% 2% 15%;  
+        margin: 0% 15% 4% 15%;  
     }
     .aluramais {
         padding: 10px;
         font-size: 1rem;
-        margin: 0% 15% 2% 15%;   
+        margin: 0% 15% 4% 15%;   
     }
     .telas {
         width: 160px;
@@ -277,7 +277,7 @@ body {
         font-size: 0.8rem;
     }
     .div2 {
-        padding: 10% 20% 10% 20%;
+        padding: 10%;
         justify-content: center;
         text-align: center;
     }
@@ -320,5 +320,6 @@ body {
     
     
 }
+
 
 
