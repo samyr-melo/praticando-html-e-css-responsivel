@@ -206,6 +206,7 @@ body {
 
 
 
+
 @media (max-width:415px) {
     .conteiner {
         height: auto;
@@ -243,7 +244,7 @@ body {
     .info {
         font-size: 0.6rem;
     }
-
+    
     .secao2 {
         flex-direction: column;
         margin: 10% 0 0% 0;
