@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reajuste Salarial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h2>
+        A Diretoria do Flamengo resolveu dar um aumento de salário aos seus colaboradores e lhe contrataram para desenvolver um script que calculará os reajustes.
+    </h2>
+   
+</header>
+<body>
+    <div class="bodi">
+        <p class="par1">Faça um script que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
+        </p>
+        <p class="par2">
+        Salários até R$ 280,00 (incluindo) : aumento de 20%<br>
+        Salários entre R$ 280,00 e R$ 700,00 : aumento de 15%<br>
+        Salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%<br>
+        Salários de R$ 1500,00 em diante : aumento de 5%
+        </p>
+    
+        <div class="salario">
+            <p>
+                Digite o seu salário atual: 
+            </p>
+        
+        R$<input class="botao" type="number" name="salant" id="salant">
+        <input class="botao" type="button" value="Reajustar" onclick="reajuste()">
+        
+        <p class="par3">
+            Informe na tela:
+        </p>
+        <p>
+            O percentual de aumento aplicado; 
+           
+        </p>
+        <p>
+            O valor do aumento;
+            
+        </p>
+        <p> O novo salário, após o aumento.
+            
+        </p>
+    
+    </div>
+    <div class="" id="res1"></div>
+    <div id="res2"></div>
+    <div id="res3"></div>
+</div>
+</body>
+<footer>&copy;Desenvolvido por Samyr Melo</footer>
+<script src="script.js"></script>
+</html>
