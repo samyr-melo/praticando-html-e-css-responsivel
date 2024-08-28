@@ -1,0 +1,62 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-fundo: #1E201E;
+
+    --cor-fonte-principal: aliceblue;
+    --cor-fonte-secundária: #697565;
+    --cor-fonte-terciaria: #ECDFCC; 
+
+    --font-principal: 'Mukta', 'Estatico';
+    --font-secundaria:'Inter','sans-serif' ; 
+}
+
+body {
+    
+    background-color:#1E201E ;
+    
+}
+
+.par1 {
+    
+    background-color: var(--cor-fonte-secundária);
+    color :aliceblue;
+    width:100% ;
+    text-align: justify ;
+    /* margin: 0% 0% 0% 0%; */
+    padding: 3% 5% 2% 5%;
+    font-family: var(--font-secundaria);
+    
+}
+
+.par2 {
+    color: aliceblue;
+    padding: 3% 5% 2% 5%;
+    font-family: var(--font-secundaria);
+}
+
+.par3 {
+    color: aliceblue;
+    padding: 3% 5% 2% 5%;
+    font-family: var(--font-secundaria);
+}
+
+div{
+    color: aliceblue;
+    padding: 3% 5% 2% 5%;
+    font-family: var(--font-secundaria);
+    
+}
+
+.form {
+    text-align: center;
+}
