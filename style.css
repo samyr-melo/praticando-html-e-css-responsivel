@@ -1,7 +1,7 @@
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
+    --botao-azul: #006ef5;
     --cor-de-fundo: #00030C;
     --font-principal: "inter",sans-serif;
 }
@@ -28,9 +28,6 @@ body {
     background-size: contain;
     align-items: center;
     text-align: center;
-
-
-
 }
 
 .conteiner{
